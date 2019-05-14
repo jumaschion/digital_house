@@ -14,6 +14,7 @@
 		2E701B7B228A3B6D008D9B92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E701B79228A3B6D008D9B92 /* LaunchScreen.storyboard */; };
 		2E701B86228A3B6D008D9B92 /* aula_UI_text_fieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E701B85228A3B6D008D9B92 /* aula_UI_text_fieldTests.swift */; };
 		2E701B91228A3B6D008D9B92 /* aula_UI_text_fieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E701B90228A3B6D008D9B92 /* aula_UI_text_fieldUITests.swift */; };
+		2E701B9F228A3E3E008D9B92 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E701B9E228A3E3E008D9B92 /* Usuario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2E701B8C228A3B6D008D9B92 /* aula_UI_text_fieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aula_UI_text_fieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E701B90228A3B6D008D9B92 /* aula_UI_text_fieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aula_UI_text_fieldUITests.swift; sourceTree = "<group>"; };
 		2E701B92228A3B6D008D9B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E701B9E228A3E3E008D9B92 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2E701B77228A3B6D008D9B92 /* Assets.xcassets */,
 				2E701B79228A3B6D008D9B92 /* LaunchScreen.storyboard */,
 				2E701B7C228A3B6D008D9B92 /* Info.plist */,
+				2E701B9E228A3E3E008D9B92 /* Usuario.swift */,
 			);
 			path = aula_UI_text_field;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				2E701B73228A3B6C008D9B92 /* ViewController.swift in Sources */,
 				2E701B71228A3B6C008D9B92 /* AppDelegate.swift in Sources */,
+				2E701B9F228A3E3E008D9B92 /* Usuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
