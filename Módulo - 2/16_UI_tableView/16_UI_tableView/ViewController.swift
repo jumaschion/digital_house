@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UITableViewController {
     
     var cars: [String] = ["civic", "corola", "bmw", "audi", "mercedes"]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,7 @@ class ViewController: UITableViewController {
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
